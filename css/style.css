@@ -229,14 +229,14 @@ h4 a:hover, h5 a:hover, h6 a:hover{
 
 h1, h2, h3,
 .h1, .h2, .h3{
-	 margin-top: 20px;
-  margin-bottom: 20px;
+	margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h4, h5, h6
 .h4, .h5, .h6{
-	 margin-top: 10px;
-  margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h1, .h1{
@@ -256,11 +256,11 @@ h4, .h4{
 }
 
 h5, .h5{
-  font-size: 14px;
+    font-size: 14px;
 }
 
 h6, .h6{
-  font-size: 12px;
+    font-size: 12px;
 }
 
 h1.inline, h2.inline, h3.inline,
@@ -483,7 +483,7 @@ img.with-border{
 	display:inline;	
 }
 
-#nav-menu > li:before{
+#nav-menu > li:before {
   	font-family: "fontello";
   	font-style: normal;
   	font-weight: normal;
@@ -958,11 +958,11 @@ img.with-border{
 /* 06.2.1 Main Slider Flexslider Control Nav & Paging */
 /* ----------------------------------------------*/
 #main-slider .flex-control-nav, .flex-control-paging{
-	 background-color:transparent; !important;
-	 margin:0; padding:0;
-	 position:absolute;
-	 bottom:0;
-	 z-index:4;
+	background-color:transparent !important;
+	margin:0; padding:0;
+	position:absolute;
+	bottom:0;
+	z-index:4;
 }
 
 #main-slider.flexslider .flex-direction-nav .flex-prev { left: 0px; }
@@ -2741,6 +2741,7 @@ footer .image-divider.fixed-height{
     float: none;
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
 }
 
 .story-date-wrapper{
@@ -2967,7 +2968,7 @@ h2#dont-miss-it-title{
 /* -------------------------------------------*/
 .mfp-bg{
 	z-index:2000;
-	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 
 .mfp-wrap {
@@ -2977,7 +2978,7 @@ h2#dont-miss-it-title{
 .mfp-content {
   	z-index: 2003;
 }
-  
+
 .mfp-preloader {
   	z-index: 2002; 
 }
@@ -3017,7 +3018,10 @@ button.mfp-close, button.mfp-arrow {
 	width:100%; 
 }
 
-
+.story-row.row [class*="col-"] {
+    display: block;
+    text-align: center;
+} 
 }
 
 @media screen and (max-width: 991px) {	
@@ -3703,7 +3707,7 @@ p{
 /* 12.5 Footer Section				 			 */
 /* ----------------------------------------------*/
 footer .image-divider.fixed-height{
-	 height:400px;
+	height:400px;
 }
 
 #thank-you{
