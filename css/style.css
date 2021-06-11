@@ -148,6 +148,7 @@
 	12.3 The Wedding Section
 	12.4 RSVP Section
 	12.5 Footer Section
+        12.5.1 Credit
 	
 13. OTHER PAGE
 	13.1 LOCATION PAGE
@@ -2614,6 +2615,19 @@ footer .image-divider.fixed-height{
 	margin-top:10px;
 }
 
+/* ----------------------------------------------*/
+/* 12.5.1 Credit				 			 */
+/* ----------------------------------------------*/
+.credit a{
+    background-color: transparent;
+    color: rgb(204, 204, 204);
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
 
 /*===============================================*/
 /* 13. OTHER PAGE								 */
@@ -2816,7 +2830,7 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 /* 14.4 Where When Section						 */
 /* ----------------------------------------------*/
-#where-when{
+#reception{
 	padding: 120px 0
 }
 
@@ -2888,8 +2902,8 @@ h2#dont-miss-it-title{
 /* ----------------------------------------------*/
 /* 14.7 More Events Section						 */
 /* ----------------------------------------------*/
-#more-events{
-	padding: 140px 0
+#luau{
+	padding: 100px 0
 }
 
 #events-carousel .item{
