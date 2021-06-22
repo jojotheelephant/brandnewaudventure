@@ -2588,6 +2588,7 @@ footer .image-divider.fixed-height{
 #thank-you{
 	text-align:center; 
 	color:var(--secondary-color); 
+    opacity: .8;
 	font-family: 'Pacifico';
 	-ms-transform: rotate(-10deg); 
 	-webkit-transform: rotate(-10deg); 
