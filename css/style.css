@@ -1431,6 +1431,13 @@ img.with-border{
 	padding:0;
 }
 
+/* 07.2.7a IMAGE DIVIDER COUNTDOWN TIMER		 */
+/* ----------------------------------------------*/
+#countdowntimer {
+    padding: 300px 0px 30px 0px;
+}
+
+
 /* 07.2.8 SPACE AND LINE DIVIDER 				 */
 /* ----------------------------------------------*/
 .space-divider{
@@ -2866,7 +2873,7 @@ footer .image-divider.fixed-height{
 /* ----------------------------------------------*/
 h2#dont-miss-it-title{
 	font-size:42px; 
-	margin-bottom:30px; 
+	margin-bottom:0px; 
 	font-family: 'Pacifico', cursive;
 }
 
